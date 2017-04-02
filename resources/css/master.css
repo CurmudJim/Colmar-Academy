@@ -1,0 +1,9 @@
+.main-grid {
+  display: grid;
+  grid-template-rows: auto auto auto auto auto auto;
+}
+
+.posts {
+  display: grid;
+  grid-template-columns: auto auto;
+}
