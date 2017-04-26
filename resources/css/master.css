@@ -1,4 +1,4 @@
-.main-grid {
+/*.main-grid {
   display: grid;
   grid-template-rows: auto auto auto auto auto auto;
 }
@@ -6,4 +6,150 @@
 .posts {
   display: grid;
   grid-template-columns: auto auto;
+}*/
+
+
+.row {
+  margin: 0;
+}
+
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  color: rgb(125, 125, 125);
+}
+
+h1, h2, h3, h4 {
+  color: rgb(74, 74, 74);
+}
+
+.pull-right a{
+  color: rgb(74, 74, 74);
+}
+
+.navbar {
+  margin: 0;
+  border: none;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 80%;
+  padding: 0;
+  margin: .5rem auto;
+}
+
+#banner {
+  background-color: rgb(216, 216, 216);
+}
+
+
+#banner .col-md-7 img, #courses .col-md-4 img, #posts .col-md-7 img, .side-post-img img, #thesis .col-md-7 video, .thesis-img img {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#banner .col-md-7, #posts .main-post, #thesis .thesis-video {
+  padding: 32px 24px;
+
+}
+
+#banner .banner-label {
+  padding: 32px 24px 32px 16px;
+  transform: translateY(30%);
+
+}
+
+
+
+#banner .banner-label h1 {
+  margin: 0;
+}
+
+#banner .banner-label h3 {
+  margin: 2rem 0;
+}
+
+#banner .btn-primary {
+  width: 100%;
+  background-color: rgb(74, 74, 74);
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  border: none;
+  border-radius: 0;
+}
+
+#banner .btn-primary:hover {
+  background-color: rgb(125, 125, 125);
+  color: rgb(74, 74, 74);
+}
+
+.main-post {
+  border-right: rgb(216, 216, 216) solid 1px;
+}
+
+.side-post, .thesis-post {
+padding: 8px 0;
+}
+
+.side-posts, .thesis-posts {
+  padding: 24px 0;
+
+}
+
+.side-post:hover, .thesis-post:hover {
+  background-color: rgb(216, 216, 216);
+}
+.side-post-img {
+
+}
+
+.side-post-label {
+  padding: 0;
+}
+
+#courses.well {
+  background-color: rgb(234, 235, 236);
+  border-radius: 0;
+  padding: 5rem;
+}
+
+#courses h2 {
+  text-align: center;
+}
+
+#courses div .col-md-4 {
+  padding-top: 2rem;
+}
+
+
+
+#courses .courses-label {
+  width: 100%;
+  min-height: 18rem;
+  height: auto;
+  padding: 16px 16px 24px 16px;
+  background-color: white;
+}
+
+.courses-label h3 {
+  margin-top: 0;
+}
+
+footer.container{
+  border-top: rgb(216, 216, 216) solid 1px;
+  padding: 1rem 0;
+}
+
+.darkgrey {
+  color: rgb(74, 74, 74);
+}
+
+.lightgrey {
+  color: rgb(155, 155, 155);
 }
